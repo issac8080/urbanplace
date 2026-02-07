@@ -1,0 +1,43 @@
+# Environment and secrets
+.env
+.env.local
+.env.*.local
+*.pem
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+.venv/
+env/
+
+# Backend
+backend/venv/
+backend/.env
+backend/*.db
+backend/uploads/
+
+# Node / Frontend
+node_modules/
+.next/
+out/
+build/
+.turbo/
+
+# IDE and OS
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Scripts used for repo maintenance (do not commit)
+env-filter.sh
+
+# Logs and misc
+*.log
+npm-debug.log*
+.pnpm-debug.log*
